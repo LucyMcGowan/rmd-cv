@@ -48,6 +48,8 @@ nocite: |
 ---
 
 # Select Invited Presentations
+\vspace{-0.5cm}
+
 **SAS Global Forum 2016** \fn{Oral Presentation} 
 
 > **Lucy D'Agostino McGowan**, Robert A. Greevy, Jr ["Integrating SAS and R to Perform Optimal Propensity Score Matching."](http://support.sas.com/resources/papers/proceedings16/11420-2016.pdf)
@@ -57,7 +59,7 @@ nocite: |
 > **Lucy D'Agostino McGowan**, Alice Toll ["Using PROC SURVEYREG and PROC SURVEYLOGISTIC to Assess Potential Bias."](http://support.sas.com/resources/papers/proceedings15/3320-2015.pdf)
 
 # Select Contributed Presentations
-
+\vspace{-0.5cm}
 **ENAR 2017** \fn{Oral Presentation}  
 
 > **Lucy D'Agostino McGowan**, Robert Alan Greevy, Jr, "Simplifying and Contextualizing Sensitivity to Unmeasured Confounding Tipping Point Analyses."
@@ -65,11 +67,6 @@ nocite: |
 **ASA Joint Statistical Meeting 2016** \fn{Poster} 
 
 > **Lucy D'Agostino McGowan**, Robert A. Greevy, Jr, "Practical Guidance and Tools for Rule-Out Sensitivity to Unmeasured Confounding Analyses."
-	
-**ASA Joint Statistical Meeting 2015** \fn{Oral Presentation and Poster}  
-
-> **Lucy D'Agostino McGowan**, Alice Toll, "Census Tract-Level Disparities: Examining Food Swamps and Food Deserts."
-
 
 # Peer-reviewed Publications 
-\vspace{.01cm}
+\vspace{-0.5cm}
