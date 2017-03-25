@@ -66,11 +66,12 @@ Religious Studies: GPA 3.92 Romance Languages: GPA 3.86
 # Outreach
 \begin{tabbing}
 2016-2017\hspace*{.5cm}\=R-Ladies Nashville, co-founder\\
-2016-2017\>  Graduate Student Council, President\\
-2016-2017\> Biostatistics Graduate Student Association, Vice President\\
+2016-2017\>  Vanderbilt Graduate Student Council, President\\
+2016-2017\> Vanderbilt Biostatistics Graduate Student Association, Vice President\\
+2016-2017\> Nashville ASA Student Chapter, Vice President\\
 2015-2017\> Tennessee Office of Refugees, Tutor\\
 2015 \> Scholarship of Teaching and Learning, Scholar\\
-2014-2015\> Graduate Student Council, Vice President of Social Affairs \\
+2014-2015\> Vanderbilt Graduate Student Council, Vice President of Social Affairs \\
 \end{tabbing}
 
 \newgeometry{left=2cm,top=2cm,right=2cm,bottom=2.5cm}
