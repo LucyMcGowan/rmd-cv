@@ -315,26 +315,41 @@ $programming$
 \end{aside}
 
 \section{Interests}
+\vspace{-.5cm}
 $interests$
+\vspace{-.75cm}
 \section{Education}
+\vspace{-.5cm}
 $for(edu)$
     \textbf{$edu.degree$} $edu.description_1$ \fn{$edu.where$}\\
     $if(edu.description_2)$ 
-     $edu.description_2$
+     $edu.description_2$\\
      $endif$ \\
 $endfor$
-\vspace{-1cm}
+\vspace{-1.25cm}
+\section{Research Experience}
+\vspace{-.5cm}
+\setlength{\tabcolsep}{0pt}
+$for(work)$
+ \begin{tabular}{p{3.5cm} p{10.25cm}}
+$work.year$ &{\textbf{$work.where$}, $work.what$}
+\end{tabular}\\
+$endfor$
+\vspace{-.75cm}
 \section{Awards}
+\vspace{-.5cm}
 \TabPositions{1.5cm}
 $for(award)$
     $award.year$ \tab{$award.name$} \\
 $endfor$
-\vspace{-1cm}
+\vspace{-.75cm}
 \section{Outreach}
+\vspace{-.5cm}
 \TabPositions{2cm}
 $for(outreach)$
     $outreach.year$ \tab{$outreach.name$} \\
 $endfor$
+\newgeometry{left=2cm,top=2cm,right=2cm,bottom=2.5cm}
 
 $body$
 

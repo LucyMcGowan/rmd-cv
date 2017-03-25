@@ -18,6 +18,11 @@ edu:
   - {degree: PhD, where: Vanderbilt University , description_1: "Student in Biostatistics, GPA 3.95" }
   - {degree: MS, where: Washington University School of Medicine, description_1: "in Biostatistics, December 2013, GPA 3.88 ", description_2: "Thesis: *Quantitative Assessment of the Community Research Fellows Training Program*"}
   - {degree: BA, where: University of North Carolina at Chapel Hill, description_1: "with Distinction and Highest Honors", description_2: "Religious Studies: GPA 3.92 Romance Languages: GPA 3.86"}
+work:
+  - {year: "March 2017-present", where: RStudio, what: upcomming internship under Jenny Bryan}
+  - {year: 2016-2017, where: Vanderbilt University, what: NIH Big Data to Knowledge Training Fellow}
+  - {year: 2015-2016, where: Vanderbilt University, what: "Research Assistant, Department of Biostatistics and Veteran Affairs"}
+  - {year: Summer 2015, where: Cleveland Clinic, what: "Graduate Fellow, Department of Quantitative Health Sciences"}
 award:
   - {year: 2016, name: "First Place, GSS Student Data Challenge, ASA Joint Statistical Meeting"}
   - {year: 2016, name: "Second Place, SPAAC Poster Competition, ASA Joint Statistical Meeting"}
@@ -42,29 +47,10 @@ nocite: |
   @Kaphingst:2015kl, @McGowan:2015bt, @McGowan:2016ira, @Drake:2016ks, @Chen:2015ki
 ---
 
-# Research experience
-**RStudio**
-
->*Intern under Jenny Bryan* \fn{2017-present}
-
-**Vanderbilt University**   
-
-> *NIH Big Data to Knowledge Training Fellow* \fn{2016-present}
-
-> *Research Assistant, Department of Biostatistics and Veteran Affairs* \fn{2015-2016}
-
-**Cleveland Clinic**  
-
-> *Summer Graduate Fellow, Department of Quantitative Health Sciences* \fn{2015}
-
-
-
-\newgeometry{left=2cm,top=2cm,right=2cm,bottom=2.5cm}
-
 # Select Invited Presentations
 **SAS Global Forum 2016** \fn{Oral Presentation} 
 
-> **Lucy D'Agostino McGowan**, Robert A. Greevy, Jr ["Integrating SAS? and R to Perform Optimal Propensity Score Matching."](http://support.sas.com/resources/papers/proceedings16/11420-2016.pdf)
+> **Lucy D'Agostino McGowan**, Robert A. Greevy, Jr ["Integrating SAS and R to Perform Optimal Propensity Score Matching."](http://support.sas.com/resources/papers/proceedings16/11420-2016.pdf)
 
 **SAS Global Forum 2015** \fn{Oral Presentation}  
 
