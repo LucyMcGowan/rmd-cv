@@ -1,7 +1,4 @@
 ---
-title: "test"
-author: "Lucy D’Agostino McGowan"
-date: "3/24/2017"
 output:
   pdf_document:
     latex_engine: xelatex
@@ -16,24 +13,34 @@ languages: proficient Italian literary, written, \& oral skills
 programming: "dev: R, \\ use: R, SAS, Stata, Python, ArcGIS" 
 github: LucyMcGowan
 twitter: LucyStats
+interests: "propensity score analyses, `R` package development, observational study methods, predictive modeling, large-scale inference, disparities research, community-based participatory research"
+edu:
+  - {degree: PhD, where: Vanderbilt University , description_1: "Student in Biostatistics, GPA 3.95" }
+  - {degree: MS, where: Washington University School of Medicine, description_1: "in Biostatistics, December 2013, GPA 3.88 ", description_2: "Thesis: *Quantitative Assessment of the Community Research Fellows Training Program*"}
+  - {degree: BA, where: University of North Carolina at Chapel Hill, description_1: "with Distinction and Highest Honors", description_2: "Religious Studies: GPA 3.92 Romance Languages: GPA 3.86"}
+award:
+  - {year: 2016, name: "First Place, GSS Student Data Challenge, ASA Joint Statistical Meeting"}
+  - {year: 2016, name: "Second Place, SPAAC Poster Competition, ASA Joint Statistical Meeting"}
+  - {year: 2016, name: "Southern Startup Internship Program in Data Science (South BDHub)"}
+  - {year: 2015, name: "First Place, GSS Student Data Challenge, ASA Joint Statistical Meeting"}
+  - {year: 2013, name: "Best Contributed Paper in the Statistics and Data Analysis SAS Global Forum"}
+  - {year: 2013, name: "First Place, Student Research Competition, 141st APHA Annual Meeting"}
+  - {year: 2013, name: "Ellis R. Ott Scholarship: ASQ Statistics Division"}
+  - {year: 2012, name: "Gertrude M. Cox Scholarship for Women in Statistics Honorable Mention"}
+outreach: 
+  - {year: 2016-2017, name: "R-Ladies Nashville, co-founder"}
+  - {year: 2016-2017, name: "Vanderbilt Graduate Student Council, President"}
+  - {year: 2016-2017, name: "Vanderbilt Biostatistics Graduate Student Association, Vice President"}
+  - {year: 2016-2017, name: "Nashville ASA Student Chapter, Vice President"}
+  - {year: 2015-2017, name: "Tennessee Office of Refugees, Tutor"}
+  - {year: 2015, name: "Scholarship of Teaching and Learning, Scholar"}
+  - {year: 2014-2015, name: "Vanderbilt Graduate Student Council, VP of Social Affairs"}
 bibliography: my-papers.bib
 csl: apa.csl
 nocite: |
   @DAgostinoMcGowan:2013ew, @Colditz:2014hh, @Griffey:2014fa, @DiggsAndrews:2014fb, @Fisher:2014jt,
   @Kaphingst:2015kl, @McGowan:2015bt, @McGowan:2016ira, @Drake:2016ks, @Chen:2015ki
 ---
-
-# Interests
-propensity score analyses, `R` package development, observational study methods, predictive modeling, large-scale inference, disparities research, community-based participatory research
-
-# Education
-**PhD** Student in Biostatistics, GPA 3.95 \fn{Vanderbilt University}  
-
-**MS**  in Biostatistics, December 2013, GPA 3.88 \fn{Washington University School of Medicine}    
-Thesis: *Quantitative Assessment of the Community Research Fellows Training Program*
-
-**BA** with Distinction and Highest Honors \fn{University of North Carolina at Chapel Hill}  
-Religious Studies: GPA 3.92 Romance Languages: GPA 3.86  
 
 # Research experience
 **RStudio**
@@ -51,28 +58,6 @@ Religious Studies: GPA 3.92 Romance Languages: GPA 3.86
 > *Summer Graduate Fellow, Department of Quantitative Health Sciences* \fn{2015}
 
 
-# Awards
-\begin{tabbing}
-2016\hspace*{1.3cm}\= First Place, GSS Student Data Challenge, ASA Joint Statistical Meeting\\
-2016\>Second Place, SPAAC Poster Competition, ASA Joint Statistical Meeting\\
-2016\> Southern Startup Internship Program in Data Science (South BDHub) \\
-2015\>First Place, GSS Student Data Challenge, ASA Joint Statistical Meeting\\
-2013\> Best Contributed Paper in the Statistics and Data Analysis SAS Global Forum\\
-2013\> First Place, Student Research Competition, 141st APHA Annual Meeting\\
-2013\>Ellis R. Ott Scholarship: ASQ Statistics Division \\
-2012\>Gertrude M. Cox Scholarship for Women in Statistics Honorable Mention\\
-\end{tabbing}
-
-# Outreach
-\begin{tabbing}
-2016-2017\hspace*{.5cm}\=R-Ladies Nashville, co-founder\\
-2016-2017\>  Vanderbilt Graduate Student Council, President\\
-2016-2017\> Vanderbilt Biostatistics Graduate Student Association, Vice President\\
-2016-2017\> Nashville ASA Student Chapter, Vice President\\
-2015-2017\> Tennessee Office of Refugees, Tutor\\
-2015 \> Scholarship of Teaching and Learning, Scholar\\
-2014-2015\> Vanderbilt Graduate Student Council, Vice President of Social Affairs \\
-\end{tabbing}
 
 \newgeometry{left=2cm,top=2cm,right=2cm,bottom=2.5cm}
 
