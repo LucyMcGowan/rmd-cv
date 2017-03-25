@@ -166,7 +166,8 @@ $endfor$
 
 % Make parskips rather than indent with lists.
 \usepackage{parskip}
-\usepackage{titlesec}
+\usepackage[explicit]{titlesec}
+
 \titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{4pt plus 2pt minus 2pt}
 \usepackage{xcolor}
 \usepackage{xifthen}
@@ -217,25 +218,23 @@ $endfor$
         green\or%
         purple\or%
         blue\or%
-        red\or%
-        orange\or%
-        green\else%
-        %purple\or%
-        %blue\else%
+        red\else%
         headercolor\fi%
     } #1#2#3%
   }%
   \stepcounter{colorCounter}%
 }
 
+
 \renewcommand{\section}[1]{
   \par\vspace{\parskip}
   {%
     \LARGE\headingfont\color{headercolor}%
-    \@sectioncolor #1%
+     \@sectioncolor #1%
   }
   \par\vspace{\parskip}
 }
+
 
 \usepackage[absolute,overlay]{textpos}
 \setlength{\TPHorizModule}{1cm}
@@ -292,6 +291,8 @@ $endfor$
 
 \usepackage{tabto}
 \parindent0em\parskip1em
+
+
 
 \begin{document}
 \pagenumbering{gobble}
@@ -351,7 +352,7 @@ $endfor$
 $for(outreach)$
     $outreach.year$ \tab{$outreach.name$} \\
 $endfor$
-\newgeometry{left=2cm,top=2cm,right=2cm,bottom=2.5cm}
+\newgeometry{left=2cm,top=2cm,right=2cm,bottom=2.25cm}
 
 $body$
 
