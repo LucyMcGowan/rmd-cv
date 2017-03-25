@@ -1,0 +1,103 @@
+---
+title: "test"
+author: "Lucy D’Agostino McGowan"
+date: "3/24/2017"
+output:
+  pdf_document:
+    latex_engine: xelatex
+    template: template.tex
+first: Lucy
+last: D'Agostino McGowan
+email: ld.mcgowan@vanderbilt.edu
+address: "2525 West End 11000 Nashville, TN 37203"
+website: "www.lucymcgowan.com"
+orcid: 0000-0001-7297-9359
+languages: proficient Italian literary, written, \& oral skills 
+programming: "dev: R, \\ use: R, SAS, Stata, Python, ArcGIS" 
+github: LucyMcGowan
+twitter: LucyStats
+bibliography: my-papers.bib
+csl: apa.csl
+nocite: |
+  @DAgostinoMcGowan:2013ew, @Colditz:2014hh, @Griffey:2014fa, @DiggsAndrews:2014fb, @Fisher:2014jt,
+  @Kaphingst:2015kl, @McGowan:2015bt, @McGowan:2016ira, @Drake:2016ks, @Chen:2015ki
+---
+
+# Interests
+propensity score analyses, `R` package development, observational study methods, predictive modeling, large-scale inference, disparities research, community-based participatory research
+
+# Education
+**PhD** Student in Biostatistics, GPA 3.95 \fn{Vanderbilt University}  
+
+**MS**  in Biostatistics, December 2013, GPA 3.88 \fn{Washington University School of Medicine}    
+Thesis: *Quantitative Assessment of the Community Research Fellows Training Program*
+
+**BA** with Distinction and Highest Honors \fn{University of North Carolina at Chapel Hill}  
+Religious Studies: GPA 3.92 Romance Languages: GPA 3.86  
+
+# Research experience
+**RStudio**
+
+>*Intern under Jenny Bryan* \fn{2017-present}
+
+**Vanderbilt University**   
+
+> *NIH Big Data to Knowledge Training Fellow* \fn{2016-present}
+
+> *Research Assistant, Department of Biostatistics and Veteran Affairs* \fn{2015-2016}
+
+**Cleveland Clinic**  
+
+> *Summer Graduate Fellow, Department of Quantitative Health Sciences* \fn{2015}
+
+
+# Awards
+\begin{tabbing}
+2016\hspace*{1.3cm}\= First Place, GSS Student Data Challenge, ASA Joint Statistical Meeting\\
+2016\>Second Place, SPAAC Poster Competition, ASA Joint Statistical Meeting\\
+2016\> Southern Startup Internship Program in Data Science (South BDHub) \\
+2015\>First Place, GSS Student Data Challenge, ASA Joint Statistical Meeting\\
+2013\> Best Contributed Paper in the Statistics and Data Analysis SAS Global Forum\\
+2013\> First Place, Student Research Competition, 141st APHA Annual Meeting\\
+2013\>Ellis R. Ott Scholarship: ASQ Statistics Division \\
+2012\>Gertrude M. Cox Scholarship for Women in Statistics Honorable Mention\\
+\end{tabbing}
+
+# Outreach
+\begin{tabbing}
+2016-2017\hspace*{.5cm}\=R-Ladies Nashville, co-founder\\
+2016-2017\>  Graduate Student Council, President\\
+2016-2017\> Biostatistics Graduate Student Association, Vice President\\
+2015-2017\> Tennessee Office of Refugees, Tutor\\
+2015 \> Scholarship of Teaching and Learning, Scholar\\
+2014-2015\> Graduate Student Council, Vice President of Social Affairs \\
+\end{tabbing}
+
+\newgeometry{left=2cm,top=2cm,right=2cm,bottom=2.5cm}
+
+# Select Invited Presentations
+**SAS Global Forum 2016** \fn{Oral Presentation} 
+
+> **Lucy D'Agostino McGowan**, Robert A. Greevy, Jr ["Integrating SAS? and R to Perform Optimal Propensity Score Matching."](http://support.sas.com/resources/papers/proceedings16/11420-2016.pdf)
+
+**SAS Global Forum 2015** \fn{Oral Presentation}  
+
+> **Lucy D'Agostino McGowan**, Alice Toll ["Using PROC SURVEYREG and PROC SURVEYLOGISTIC to Assess Potential Bias."](http://support.sas.com/resources/papers/proceedings15/3320-2015.pdf)
+
+# Select Contributed Presentations
+
+**ENAR 2017** \fn{Oral Presentation}  
+
+> **Lucy D'Agostino McGowan**, Robert Alan Greevy, Jr, "Simplifying and Contextualizing Sensitivity to Unmeasured Confounding Tipping Point Analyses."
+
+**ASA Joint Statistical Meeting 2016** \fn{Poster} 
+
+> **Lucy D'Agostino McGowan**, Robert A. Greevy, Jr, "Practical Guidance and Tools for Rule-Out Sensitivity to Unmeasured Confounding Analyses."
+	
+**ASA Joint Statistical Meeting 2015** \fn{Oral Presentation and Poster}  
+
+> **Lucy D'Agostino McGowan**, Alice Toll, "Census Tract-Level Disparities: Examining Food Swamps and Food Deserts."
+
+
+# Peer-reviewed Publications 
+\vspace{.01cm}
