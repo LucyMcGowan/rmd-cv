@@ -10,19 +10,22 @@ address: "2525 West End 11000 Nashville, TN 37203"
 website: "www.lucymcgowan.com"
 orcid: 0000-0001-7297-9359
 languages: proficient Italian literary, written, \& oral skills 
-programming: "dev: R, \\ use: R, SAS, Stata, Python, ArcGIS" 
+programming: |
+  | **dev:** R **use:** R, SAS, Stata, Python, ArcGIS
 github: LucyMcGowan
 twitter: LucyStats
-interests: "propensity score analyses, `R` package development, observational study methods, predictive modeling, large-scale inference, disparities research, community-based participatory research"
+attributes: "goal-driven leadership, advanced analytic skills, strategic thinking, resourceful team player, sunny disposition $\\Springtree$, public speaking, organizational & communication skills"
+interests: "propensity score analyses, `R` package development, observational study methods, predictive modeling, large-scale inference, [R-Ladies](https://rladies.org), engaging beginners in `R` package development with [rOpenSci](http://ropensci.org) through [`contributr`](https://github.com/LucyMcGowan/contributr), disparities research, community-based participatory research"
 edu:
   - {degree: PhD, where: Vanderbilt University , description_1: "Student in Biostatistics, GPA 3.95" }
   - {degree: MS, where: Washington University School of Medicine, description_1: "in Biostatistics, December 2013, GPA 3.88 ", description_2: "Thesis: *Quantitative Assessment of the Community Research Fellows Training Program*"}
   - {degree: BA, where: University of North Carolina at Chapel Hill, description_1: "with Distinction and Highest Honors", description_2: "Religious Studies: GPA 3.92 Romance Languages: GPA 3.86"}
 work:
-  - {year: "March 2017-present", where: RStudio, what: upcomming internship under Jenny Bryan}
+  - {year: "March 2017-present", where: RStudio, what: upcoming internship under Jenny Bryan}
   - {year: 2016-2017, where: Vanderbilt University, what: NIH Big Data to Knowledge Training Fellow}
-  - {year: 2015-2016, where: Vanderbilt University, what: "Research Assistant, Department of Biostatistics and Veteran Affairs"}
+  - {year: 2015-2016, where: Vanderbilt University, what: "Research Assistant, Department of Biostatistics and VA Tennessee Valley"}
   - {year: Summer 2015, where: Cleveland Clinic, what: "Graduate Fellow, Department of Quantitative Health Sciences"}
+  - {year: 2012-2014, where: Washington University School of Medicine, what: "Statistical Data Analyst promoted from Research Assistant, Department of Surgery, Division of Public Health Sciences"}
 award:
   - {year: 2016, name: "First Place, GSS Student Data Challenge, ASA Joint Statistical Meeting"}
   - {year: 2016, name: "Second Place, SPAAC Poster Competition, ASA Joint Statistical Meeting"}

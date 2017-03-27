@@ -51,7 +51,7 @@ $endif$
 \usepackage{microtype}
 \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
 }{}
-\usepackage[left=6.1cm,top=2cm,right=1.5cm,bottom=2.5cm,nohead]{geometry}
+\usepackage[left=6.1cm,top=2cm,right=1.5cm,bottom=1.5cm,nohead]{geometry}
 
 
 $if(lang)$
@@ -291,9 +291,7 @@ $endfor$
 
 \usepackage{tabto}
 \parindent0em\parskip1em
-
-
-
+\usepackage{tikzsymbols}
 \begin{document}
 \pagenumbering{gobble}
 \header{$first$}{$last$}{\href{mailto:}{$email$}} 
@@ -313,6 +311,10 @@ $address$
 $languages$
 \section{programming}
 $programming$ 
+$if(attributes)$
+\section{defining attributes}
+$attributes$
+$endif$
 \end{aside}
 
 \section{Interests}
@@ -327,12 +329,12 @@ $for(edu)$
      $edu.description_2$\\
      $endif$ \\
 $endfor$
-\vspace{-0.75cm}
+\vspace{-0.85cm}
 \section{Research Experience}
 \vspace{-0.25cm}
 \setlength{\tabcolsep}{0pt}
 $for(work)$
- \begin{tabular}{p{3.5cm} p{10.25cm}}
+ \begin{tabular}{p{3.25cm} p{10.25cm}}
 $work.year$ &{\textbf{$work.where$}, $work.what$}
 \end{tabular}\\
 $endfor$
@@ -352,7 +354,7 @@ $endfor$
 $for(outreach)$
     $outreach.year$ \tab{$outreach.name$} \\
 $endfor$
-\newgeometry{left=2cm,top=2cm,right=2cm,bottom=2.25cm}
+\newgeometry{left=2cm,top=2cm,right=2cm,bottom=2cm}
 
 $body$
 
