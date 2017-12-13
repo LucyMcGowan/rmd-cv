@@ -287,7 +287,7 @@ $endfor$
 \pagestyle{fancy}
 \fancyhf{} % sets both header and footer to nothing
 \renewcommand{\headrulewidth}{0pt}
-\fancyfoot[R]{\footnotesize \addfontfeature{Color=lightgray}Created by Lucy in RMarkdown, inspired by the LaTeX \href{http://www.latextemplates.com/template/friggeri-resume-cv}{Friggeri} template.}
+%\fancyfoot[R]{\footnotesize \addfontfeature{Color=lightgray}Created by Lucy in RMarkdown, inspired by the LaTeX \href{http://www.latextemplates.com/template/friggeri-resume-cv}{Friggeri} template.}
 
 \usepackage{tabto}
 \parindent0em\parskip1em
@@ -318,11 +318,11 @@ $endif$
 \end{aside}
 
 \section{Interests}
-\vspace{-0.25cm}
+\vspace{-0.5cm}
 $interests$
 
 \section{Education}
-\vspace{-0.25cm}
+\vspace{-0.5cm}
 $for(edu)$
     \textbf{$edu.degree$} $edu.description_1$ \fn{$edu.where$}\\
     $if(edu.description_2)$ 
@@ -331,7 +331,7 @@ $for(edu)$
 $endfor$
 \vspace{-0.85cm}
 \section{Research Experience}
-\vspace{-0.25cm}
+\vspace{-0.5cm}
 \setlength{\tabcolsep}{0pt}
 $for(work)$
  \begin{tabular}{p{3.25cm} p{10.25cm}}
@@ -341,7 +341,7 @@ $endfor$
 
 \vspace{-0.5cm}
 \section{Awards}
-\vspace{-0.25cm}
+\vspace{-0.5cm}
 \TabPositions{1.5cm}
 $for(award)$
     $award.year$ \tab{$award.name$} \\
@@ -349,7 +349,7 @@ $endfor$
 
 \vspace{-0.5cm}
 \section{Outreach}
-\vspace{-0.25cm}
+\vspace{-0.5cm}
 \TabPositions{2cm}
 $for(outreach)$
     $outreach.year$ \tab{$outreach.name$} \\
