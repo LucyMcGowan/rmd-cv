@@ -293,6 +293,7 @@ $endfor$
 \parindent0em\parskip1em
 \usepackage{tikzsymbols}
 \begin{document}
+\rfoot{Updated on $date$}
 \pagenumbering{gobble}
 \header{$first$}{$last$}{\href{mailto:}{$email$}} 
 
@@ -318,20 +319,20 @@ $endif$
 \end{aside}
 
 \section{Interests}
-\vspace{-0.5cm}
+\vspace{-0.65cm}
 $interests$
-
+\vspace{-0.45cm}
 \section{Education}
-\vspace{-0.5cm}
+\vspace{-0.65cm}
 $for(edu)$
     \textbf{$edu.degree$} $edu.description_1$ \fn{$edu.where$}\\
     $if(edu.description_2)$ 
      $edu.description_2$\\
      $endif$ \\
 $endfor$
-\vspace{-0.85cm}
+\vspace{-1.05cm}
 \section{Research Experience}
-\vspace{-0.5cm}
+\vspace{-0.65cm}
 \setlength{\tabcolsep}{0pt}
 $for(work)$
  \begin{tabular}{p{3.25cm} p{10.25cm}}
@@ -339,17 +340,17 @@ $work.year$ &{\textbf{$work.where$}, $work.what$}
 \end{tabular}\\
 $endfor$
 
-\vspace{-0.5cm}
+\vspace{-0.65cm}
 \section{Awards}
-\vspace{-0.5cm}
+\vspace{-0.65cm}
 \TabPositions{1.5cm}
 $for(award)$
     $award.year$ \tab{$award.name$} \\
 $endfor$
 
-\vspace{-0.5cm}
+\vspace{-0.65cm}
 \section{Outreach}
-\vspace{-0.5cm}
+\vspace{-0.65cm}
 \TabPositions{2cm}
 $for(outreach)$
     $outreach.year$ \tab{$outreach.name$} \\
@@ -379,4 +380,5 @@ $for(include-after)$
 $include-after$
 
 $endfor$
+
 \end{document}

@@ -3,9 +3,10 @@ output:
   pdf_document:
     latex_engine: xelatex
     template: template.tex
+date: June 11, 2018
 first: Lucy
 last: D'Agostino McGowan
-email: ld.mcgowan@vanderbilt.edu
+email: lucydagostino@gmail.com
 address: "2525 West End 11000 Nashville, TN 37203"
 website: "www.lucymcgowan.com"
 orcid: 0000-0001-7297-9359
@@ -15,18 +16,22 @@ programming: |
 github: LucyMcGowan
 twitter: LucyStats
 attributes: "goal-driven leadership, advanced analytic skills, strategic thinking, resourceful team player, sunny disposition $\\Springtree$, public speaking, organizational & communication skills"
-interests: "propensity score analyses, `R` package development, observational study methods, predictive modeling, large-scale inference, [R-Ladies](https://rladies.org), engaging beginners in `R` package development with [rOpenSci](http://ropensci.org) through [`contributr`](https://github.com/LucyMcGowan/contributr), disparities research, community-based participatory research"
+interests: "causal inference, propensity score analyses, `R` package development, observational study methods, predictive modeling, large-scale inference, [R-Ladies](https://rladies.org), data science pedagogy"
 edu:
-  - {degree: PhD, where: Vanderbilt University , description_1: "Student in Biostatistics, GPA 3.95" }
+  - {degree: PhD, where: Vanderbilt University , description_1: "Student in Biostatistics, GPA 3.95",
+  description_2: "Thesis: *Improving Modern Techniques of Causal Inference: Finite Sample Performance of ATM and ATO Doubly Robust Estimators, Variance Estimation for ATO Estimators, and Contextualized Tipping Point Sensitivity Analyses for Unmeasured Confounding*" }
   - {degree: MS, where: Washington University School of Medicine, description_1: "in Biostatistics, December 2013, GPA 3.88 ", description_2: "Thesis: *Quantitative Assessment of the Community Research Fellows Training Program*"}
   - {degree: BA, where: University of North Carolina at Chapel Hill, description_1: "with Distinction and Highest Honors", description_2: "Religious Studies: GPA 3.92 Romance Languages: GPA 3.86"}
 work:
-  - {year: "March 2017-present", where: RStudio, what: upcoming internship under Jenny Bryan}
+  - {year: "2018-present", where: Johns Hopkins Bloomberg School of Public Health, what: Postdoctoral Fellow with Jeff Leek}
+  - {year: "2017-2018 \\hspace{1cm} 2015-2016", where: Vanderbilt University, what: "Research Assistant, Department of Biostatistics and VA Tennessee Valley"}
+  - {year: 2017, where: RStudio, what: internship under Jenny Bryan}
   - {year: 2016-2017, where: Vanderbilt University, what: NIH Big Data to Knowledge Training Fellow}
-  - {year: 2015-2016, where: Vanderbilt University, what: "Research Assistant, Department of Biostatistics and VA Tennessee Valley"}
   - {year: Summer 2015, where: Cleveland Clinic, what: "Graduate Fellow, Department of Quantitative Health Sciences"}
   - {year: 2012-2014, where: Washington University School of Medicine, what: "Statistical Data Analyst promoted from Research Assistant, Department of Surgery, Division of Public Health Sciences"}
 award:
+  - {year: 2017, name: "Caucus for Women in Statistics Travel Award"}
+  - {year: 2017, name: "useR!2017 Young Academic Scholarship"}
   - {year: 2016, name: "First Place, GSS Student Data Challenge, ASA Joint Statistical Meeting"}
   - {year: 2016, name: "Second Place, SPAAC Poster Competition, ASA Joint Statistical Meeting"}
   - {year: 2016, name: "Southern Startup Internship Program in Data Science (South BDHub)"}
@@ -48,7 +53,7 @@ bibliography: my-papers.bib
 csl: apa.csl
 nocite: |
   @DAgostinoMcGowan:2013ew, @Colditz:2014hh, @Griffey:2014fa, @DiggsAndrews:2014fb, @Fisher:2014jt,
-  @Kaphingst:2015kl, @McGowan:2015bt, @McGowan:2016ira, @Drake:2016ks, @Chen:2015ki, @Roumie:2017kv
+  @Kaphingst:2015kl, @McGowan:2015bt, @McGowan:2016ira, @Drake:2016ks, @Chen:2015ki, @Roumie:2017kv, @Blume:2018kb
 ---
 
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
@@ -57,7 +62,7 @@ library("dplyr")
 ```
 
 # Select Invited Presentations
-\vspace{-0.75cm}
+\vspace{-0.05cm}
 
 ```{r, eval = FALSE, echo = FALSE, message = FALSE, warning = FALSE}
 presentations <- gs_url("https://docs.google.com/spreadsheets/d/1-PItelqpv0Sb_LdiEDqb8O3D_Roii5nVTL07IRVbRtA/edit#gid=0", verbose = FALSE) %>%
@@ -69,7 +74,8 @@ save(presentations, file = "presentations.rda")
 ```{r, results = "asis", message = FALSE, warning = FALSE, echo = FALSE}
 load("presentations.rda")
 invited <- presentations %>%
-  filter(invited == 1)
+  filter(invited == 1) %>%
+  arrange(-when)
 
 glue::glue_data(invited, "**>where<** \\fn{>what<}",
                 "\\begin{quote}>gsub('\\\\*', '', who)<, \\href{>link<}{\">title<.\"}\\end{quote}",
@@ -78,11 +84,12 @@ glue::glue_data(invited, "**>where<** \\fn{>what<}",
 
 
 # Contributed Presentations
-\vspace{-0.75cm}
+\vspace{-0.05cm}
 
 ```{r, results = "asis", echo = FALSE}
 contrib <- presentations %>%
-  filter(invited == 0)
+  filter(invited == 0) %>%
+  arrange(-when)
 
 glue::glue_data(contrib, "**>where<** \\fn{>what<}",
                 "\\begin{quote}>gsub('\\\\*', '', who)<, \\href{>link<}{\">title<.\"}\\end{quote}",
@@ -90,4 +97,4 @@ glue::glue_data(contrib, "**>where<** \\fn{>what<}",
 ```
 
 # Peer-reviewed Publications 
-\vspace{-0.75cm}
+\vspace{-0.05cm}
