@@ -299,19 +299,33 @@ $endfor$
 
 \begin{aside}
 \section{contact}
+$if(address)$
 $address$
+$endif$
+$if(website)$
 \section{website}
 \href{$website$}{$website$}
+$endif$
+$if(twitter)$
 \section{twitter}
 \href{http://twitter.com/$twitter$}{$twitter$}
+$endif$
+$if(github)$
 \section{github}
 \href{http://github.com/$github$}{$github$}
+$endif$
+$if(orcid)$
 \section{orcid}
 \href{http://orcid.org/$orcid$}{$orcid$}
+$endif$
+$if(languages)$
 \section{languages}
 $languages$
+$endif$
+$if(programming)$
 \section{programming}
 $programming$ 
+$endif$
 $if(attributes)$
 \section{defining attributes}
 $attributes$
@@ -382,3 +396,4 @@ $include-after$
 $endfor$
 
 \end{document}
+
